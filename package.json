@@ -1,0 +1,66 @@
+{
+	"name": "spiderman",
+	"version": "0.0.1",
+	"displayName": "Theme Spider Man",
+	"homepage": "https://jundat95.com/",
+	"description": "Theme Spider Man. A dark theme for many editors, shells, and more.",
+	"publisher": "Jundat95",
+	"license": "MIT",
+	"scripts": {
+		"build": "node ./build.js",
+		"package": "vsce package -o ./bin/spiderman.vsix",
+		"vscode:prepublish": "npm run build"
+	},
+	"maintainers": [
+		"Jundat95 <gjundat95@gmail.com>"
+	],
+	"contributors": [
+		"Tinh Ngo",
+		"Jundat95"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jundat95/vscode-theme-spider-man.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jundat95/vscode-theme-spider-man/issues"
+	},
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"spider-man",
+		"spider man",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#3c4557",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"id": "spider-man-theme",
+				"label": "Spider Man",
+				"uiTheme": "vs-dark",
+				"path": "./theme/spider-man.json"
+			},
+			{
+				"id": "spider-man-theme",
+				"label": "Spider Man Soft",
+				"uiTheme": "vs-dark",
+				"path": "./theme/spider-man-soft.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"js-yaml": "^3.12.0",
+		"tinycolor2": "^1.4.1"
+	}
+}
