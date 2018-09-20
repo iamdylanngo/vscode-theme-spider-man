@@ -7,3 +7,11 @@
 ### Patch
 
 - Add red color
+
+
+## 0.0.2
+
+### Minor
+
+- Update readme
+
