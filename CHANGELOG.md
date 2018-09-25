@@ -2,11 +2,11 @@
 
 ### Minor
 
-- Init theme spider man for vs code
+    - Init theme spider man for vs code
 
 ### Patch
 
-- Add red color
+    - Add red color
 
 
 ## 0.0.2
@@ -15,3 +15,12 @@
 
 - Update readme
 
+
+## 0.0.3
+
+### Minor
+
+    - Add theme spider man with color pink
+    - Add theme spider man with color orange
+    - Update readme
+    - Update images in tutorial

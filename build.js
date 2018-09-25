@@ -31,22 +31,19 @@ yamlObj.colors = Object.keys(yamlObj.colors).reduce((obj, key) => {
     return Object.assign({}, obj, { [key]: yamlObj.colors[key] });
 }, {});
 
-const brightColors = [...yamlObj.spiderman.ansi, ...yamlObj.spiderman.brightOther];
+const pink = standard.replace('#ED1B24','#D500F9');
 
-const soft = standard.replace(/'(#[0-9A-Z]{6})/g, (match, hex) => {
-    if (brightColors.indexOf(hex) > -1) {
-        return `'${tinycolor(hex)
-            .desaturate(20)
-            .toHexString()}`;
-    }
-    return `'${tinycolor(hex).toHexString()}`;
-});
+const orange = standard.replace('#ED1B24','#EF6C00');
 
 fs.writeFileSync(
-    path.join(THEME_DIR, 'spider-man.json'),
+    path.join(THEME_DIR, 'spider-man-red.json'),
     JSON.stringify(yaml.load(standard, { schema }), null, 4)
 );
 fs.writeFileSync(
-    path.join(THEME_DIR, 'spider-man-soft.json'),
-    JSON.stringify(yaml.load(soft, { schema }), null, 4)
+    path.join(THEME_DIR, 'spider-man-pink.json'),
+    JSON.stringify(yaml.load(pink, { schema }), null, 4)
+);
+fs.writeFileSync(
+    path.join(THEME_DIR, 'spider-man-orange.json'),
+    JSON.stringify(yaml.load(orange, { schema }), null, 4)
 );

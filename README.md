@@ -6,15 +6,34 @@
 
 > A dark theme for [Visual Studio Code](http://code.visualstudio.com).
 
-Here is direct link to marketplace [Spider man,Theme, Visual code theme](https://marketplace.visualstudio.com/items?itemName=jundat95.spiderman)
+Here is direct link to marketplace [Spider Man, Theme, Visual Code Theme](https://marketplace.visualstudio.com/items?itemName=jundat95.spiderman)
+
+## Install
+
+    - Open Visual Studio Code
+    - Press `ctl/command + shift + p` to launch the command palette then run
+    - use command line: `ext install spiderman`
 
 
 ## Tutorial
 
-![Theme Spider man](./images/tutorial1.png)
+### Theme Spider Man
+
+![Theme Spider man](./images/spiderman1.png)
+
+### Theme Spider Orange
+
+![Theme Spider orange](./images/spiderman2.png)
+
+### Theme Spider Pink
+
+![Theme Spider pink](./images/spiderman3.png)
 
 
 ## Support language programing
+
+- [Javascript](Javascript)
+- [TypeScript](TypeScript)
 - [C++](#c++)
 - [C#](#c-sharp)
 - [Clojure](#clojure)
@@ -32,7 +51,6 @@ Here is direct link to marketplace [Spider man,Theme, Visual code theme](https:/
 - [Rust](#rust)
 - [Shell](#shell)
 - [Swift](#swift)
-
 
 ## License
 

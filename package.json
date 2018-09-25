@@ -1,6 +1,6 @@
 {
 	"name": "spiderman",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"displayName": "Theme Spider Man",
 	"homepage": "https://jundat95.com/",
 	"description": "Theme Spider Man. A dark theme for many editors, shells, and more.",
@@ -49,13 +49,19 @@
 				"id": "spider-man-theme",
 				"label": "Spider Man",
 				"uiTheme": "vs-dark",
-				"path": "./theme/spider-man.json"
+				"path": "./theme/spider-man-red.json"
 			},
 			{
 				"id": "spider-man-theme",
-				"label": "Spider Man Soft",
+				"label": "Spider Man Pink",
 				"uiTheme": "vs-dark",
-				"path": "./theme/spider-man-soft.json"
+				"path": "./theme/spider-man-pink.json"
+			},
+			{
+				"id": "spider-man-theme",
+				"label": "Spider Man Orange",
+				"uiTheme": "vs-dark",
+				"path": "./theme/spider-man-orange.json"
 			}
 		]
 	},
