@@ -1,12 +1,14 @@
 {
 	"name": "spiderman",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"displayName": "Theme Spider Man",
 	"homepage": "https://jundat95.com/",
 	"description": "Theme Spider Man. A dark theme for many editors, shells, and more.",
 	"publisher": "Jundat95",
 	"license": "MIT",
 	"scripts": {
+		"attach": "./bootstrap.sh attach",
+		"eject": "./bootstrap.sh eject",
 		"build": "node ./build.js",
 		"package": "vsce package -o ./bin/spiderman.vsix",
 		"vscode:prepublish": "npm run build"
@@ -46,19 +48,16 @@
 	"contributes": {
 		"themes": [
 			{
-				"id": "spider-man-theme",
 				"label": "Spider Man",
 				"uiTheme": "vs-dark",
 				"path": "./theme/spider-man-red.json"
 			},
 			{
-				"id": "spider-man-theme",
 				"label": "Spider Man Pink",
 				"uiTheme": "vs-dark",
 				"path": "./theme/spider-man-pink.json"
 			},
 			{
-				"id": "spider-man-theme",
 				"label": "Spider Man Orange",
 				"uiTheme": "vs-dark",
 				"path": "./theme/spider-man-orange.json"
