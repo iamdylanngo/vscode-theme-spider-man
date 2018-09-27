@@ -31,9 +31,11 @@ yamlObj.colors = Object.keys(yamlObj.colors).reduce((obj, key) => {
     return Object.assign({}, obj, { [key]: yamlObj.colors[key] });
 }, {});
 
-const pink = standard.replace('#ED1B24','#D500F9');
+const blue  = standard.replace('#ED1B24','#9EBCE6');
 
 const orange = standard.replace('#ED1B24','#EF6C00');
+
+const pink = standard.replace('#ED1B24','#FE4CF9');
 
 fs.writeFileSync(
     path.join(THEME_DIR, 'spider-man-red.json'),
@@ -46,4 +48,8 @@ fs.writeFileSync(
 fs.writeFileSync(
     path.join(THEME_DIR, 'spider-man-orange.json'),
     JSON.stringify(yaml.load(orange, { schema }), null, 4)
+);
+fs.writeFileSync(
+    path.join(THEME_DIR, 'spider-man-blue.json'),
+    JSON.stringify(yaml.load(blue, { schema }), null, 4)
 );

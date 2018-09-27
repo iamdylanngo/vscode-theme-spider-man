@@ -1,6 +1,6 @@
 {
 	"name": "spiderman",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"displayName": "Theme Spider Man",
 	"homepage": "https://jundat95.com/",
 	"description": "Theme Spider Man. A dark theme for many editors, shells, and more.",
@@ -61,6 +61,11 @@
 				"label": "Spider Man Orange",
 				"uiTheme": "vs-dark",
 				"path": "./theme/spider-man-orange.json"
+			},
+			{
+				"label": "Spider Man Blue",
+				"uiTheme": "vs-dark",
+				"path": "./theme/spider-man-blue.json"
 			}
 		]
 	},
