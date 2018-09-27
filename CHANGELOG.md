@@ -24,3 +24,19 @@
     - Add theme spider man with color orange
     - Update readme
     - Update images in tutorial
+
+
+## 0.0.4
+
+### Minor
+
+    - Update readme
+
+
+
+## 0.0.5
+
+### Minor
+
+    - Add theme blue
+    - Fix theme pink

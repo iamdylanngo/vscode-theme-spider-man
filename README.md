@@ -29,6 +29,9 @@ Here is direct link to marketplace [Spider Man, Theme, Visual Code Theme](https:
 
 ![Theme Spider pink](./images/spiderman3.png)
 
+### Theme Spider Blue
+
+![Theme Spider blue](./images/spiderman4.png)
 
 ## Support language programing
 
