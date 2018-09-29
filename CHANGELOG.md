@@ -40,3 +40,21 @@
 
     - Add theme blue
     - Fix theme pink
+
+
+## 0.0.6
+
+### Minor
+
+### Patch
+
+    - Update Readme
+
+
+## 0.0.7
+
+### Minor
+
+### Patch
+
+    - Update Readme

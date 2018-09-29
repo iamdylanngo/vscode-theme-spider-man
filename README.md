@@ -12,7 +12,7 @@ Here is direct link to marketplace [Spider Man, Theme, Visual Code Theme](https:
 
     - Open Visual Studio Code
     - Press `ctl/command + shift + p` to launch the command palette then run
-    - use command line: `ext install spiderman`
+    - use command line: `ext install jundat95.spiderman`
 
 
 ## Tutorial
