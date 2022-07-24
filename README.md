@@ -1,21 +1,28 @@
-# Theme Spider Man for [Visual Studio Code](http://code.visualstudio.com)
+# VS Code Dark Theme Colors [Visual Studio Code](http://code.visualstudio.com)
 
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/jundat95.spiderman.svg)](https://marketplace.visualstudio.com/items?itemName=jundat95.spiderman)
-[![Install](https://vsmarketplacebadge.apphb.com/installs-short/jundat95.spiderman.svg)](https://marketplace.visualstudio.com/items?itemName=jundat95.spiderman)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/jundat95.spiderman.svg)](https://marketplace.visualstudio.com/items?itemName=jundat95.spiderman)
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/dylanops.spiderman.svg)](https://marketplace.visualstudio.com/items?itemName=dylanops.spiderman)
+[![Install](https://vsmarketplacebadge.apphb.com/installs-short/dylanops.spiderman.svg)](https://marketplace.visualstudio.com/items?itemName=dylanops.spiderman)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/dylanops.spiderman.svg)](https://marketplace.visualstudio.com/items?itemName=dylanops.spiderman)
 
 > A dark theme for [Visual Studio Code](http://code.visualstudio.com).
 
-Here is direct link to marketplace [Spider Man, Theme, Visual Code Theme](https://marketplace.visualstudio.com/items?itemName=jundat95.spiderman)
+Here is direct link to marketplace [Spider Man, Theme, Visual Code Theme](https://marketplace.visualstudio.com/items?itemName=dylanops.spiderman)
 
 ## Install
 
     - Open Visual Studio Code
     - Press `ctl/command + shift + p` to launch the command palette then run
-    - use command line: `ext install jundat95.spiderman`
+    - use command line: `ext install dylanops.spiderman`
+    - The theme support editor transparent background on linux
+    - Increase transparent: ctrl+alt+a
+    - Decrease transparent: ctrl+alt+z
 
 
 ## Tutorial
+
+### Editor Transparent
+
+![Editor Transparent](./images/spiderman5.png)
 
 ### Theme Spider Man
 

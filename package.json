@@ -1,24 +1,26 @@
 {
 	"name": "spiderman",
-	"version": "0.0.7",
-	"displayName": "Theme Spider Man",
-	"homepage": "https://jundat95.com/",
-	"description": "Theme Spider Man. A dark theme for many editors, shells, and more.",
-	"publisher": "Jundat95",
+	"publisher": "dylanops",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.69.0"
+	},
+	"displayName": "VS Code Dark Theme Colors",
+	"homepage": "https://dylanops.com/",
+	"description": "VS code dark theme colors for many editors, shells, and more.",
 	"license": "MIT",
 	"scripts": {
 		"attach": "./bootstrap.sh attach",
 		"eject": "./bootstrap.sh eject",
 		"build": "node ./build.js",
-		"package": "vsce package -o ./bin/spiderman.vsix",
+		"package": "mkdir -p bin && vsce package -o ./bin/spiderman.vsix --no-yarn",
 		"vscode:prepublish": "npm run build"
 	},
 	"maintainers": [
-		"Jundat95 <gjundat95@gmail.com>"
+		"Dylan Ngo <it.tinhngo@gmail.com>"
 	],
 	"contributors": [
-		"Tinh Ngo",
-		"Jundat95"
+		"Dylan Ngo"
 	],
 	"repository": {
 		"type": "git",
@@ -27,25 +29,78 @@
 	"bugs": {
 		"url": "https://github.com/jundat95/vscode-theme-spider-man/issues"
 	},
-	"engines": {
-		"vscode": "^1.13.0"
-	},
-	"categories": [
-		"Themes"
-	],
 	"keywords": [
-		"spider-man",
-		"spider man",
-		"dark",
+		"vs code theme",
+		"vs code spider man theme",
+		"vs code drak theme",
 		"theme",
-		"color-theme"
+		"transparent background"
 	],
 	"icon": "icon.png",
+	"devDependencies": {
+		"js-yaml": "^3.13.1",
+		"tinycolor2": "^1.4.1"
+	},
+	"categories": [
+		"Other"
+	],
 	"galleryBanner": {
 		"color": "#3c4557",
 		"theme": "dark"
 	},
+	"main": "./extension.js",
+	"activationEvents": [
+		"onCommand:spiderman.increase",
+		"onCommand:spiderman.decrease",
+		"onCommand:spiderman.maximize",
+		"onCommand:spiderman.minimize"
+	],
 	"contributes": {
+		"configuration": [
+			{
+				"title": "VS Code theme SpiderMan configuration",
+				"properties": {
+					"spiderman.alpha": {
+						"type": "integer",
+						"default": 220,
+						"description": "Transparency level [1-255]"
+					},
+					"spiderman.step": {
+						"type": "integer",
+						"default": 5,
+						"description": "Increment of alpha"
+					}
+				}
+			}
+		],
+		"commands": [
+			{
+				"command": "spiderman.increase",
+				"title": "Increase transperent background"
+			},
+			{
+				"command": "spiderman.decrease",
+				"title": "Decrease transperent background"
+			},
+			{
+				"command": "spiderman.maximize",
+				"title": "Maximize transperent background"
+			},
+			{
+				"command": "spiderman.minimize",
+				"title": "Minimize transperent background"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "spiderman.increase",
+				"key": "ctrl+alt+a"
+			},
+			{
+				"command": "spiderman.decrease",
+				"key": "ctrl+alt+z"
+			}
+		],
 		"themes": [
 			{
 				"label": "Spider Man",
@@ -68,9 +123,5 @@
 				"path": "./theme/spider-man-blue.json"
 			}
 		]
-	},
-	"devDependencies": {
-		"js-yaml": "^3.13.1",
-		"tinycolor2": "^1.4.1"
 	}
 }
