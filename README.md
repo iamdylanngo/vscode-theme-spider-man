@@ -1,18 +1,18 @@
 # VS Code Dark Theme Colors [Visual Studio Code](http://code.visualstudio.com)
 
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/dylanops.spiderman.svg)](https://marketplace.visualstudio.com/items?itemName=dylanops.spiderman)
-[![Install](https://vsmarketplacebadge.apphb.com/installs-short/dylanops.spiderman.svg)](https://marketplace.visualstudio.com/items?itemName=dylanops.spiderman)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/dylanops.spiderman.svg)](https://marketplace.visualstudio.com/items?itemName=dylanops.spiderman)
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/dylanops.vs-code-dark-theme-colors.svg)](https://marketplace.visualstudio.com/items?itemName=dylanops.vs-code-dark-theme-colors)
+[![Install](https://vsmarketplacebadge.apphb.com/installs-short/dylanops.vs-code-dark-theme-colors.svg)](https://marketplace.visualstudio.com/items?itemName=dylanops.vs-code-dark-theme-colors)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/dylanops.vs-code-dark-theme-colors.svg)](https://marketplace.visualstudio.com/items?itemName=dylanops.vs-code-dark-theme-colors)
 
 > A dark theme for [Visual Studio Code](http://code.visualstudio.com).
 
-Here is direct link to marketplace [Spider Man, Theme, Visual Code Theme](https://marketplace.visualstudio.com/items?itemName=dylanops.spiderman)
+Here is direct link to marketplace [VS Code Dark Theme Colors](https://marketplace.visualstudio.com/items?itemName=dylanops.vs-code-dark-theme-colors)
 
 ## Install
 
     - Open Visual Studio Code
     - Press `ctl/command + shift + p` to launch the command palette then run
-    - use command line: `ext install dylanops.spiderman`
+    - use command line: `ext install dylanops.vs-code-dark-theme-colors`
     - The theme support editor transparent background on linux
     - Increase transparent: ctrl+alt+a
     - Decrease transparent: ctrl+alt+z
@@ -20,25 +20,25 @@ Here is direct link to marketplace [Spider Man, Theme, Visual Code Theme](https:
 
 ## Tutorial
 
-### Editor Transparent
+## Editor Transparent
 
 ![Editor Transparent](./images/spiderman5.png)
 
-### Theme Spider Man
+## Theme Red
 
-![Theme Spider man](./images/spiderman1.png)
+![Theme Spider man](./images/vs-code-dark-theme1.png)
 
-### Theme Spider Orange
+## Theme Orange
 
-![Theme Spider orange](./images/spiderman2.png)
+![Theme Spider orange](./images/vs-code-dark-theme3.png)
 
-### Theme Spider Pink
+## Theme Pink
 
-![Theme Spider pink](./images/spiderman3.png)
+![Theme Spider pink](./images/vs-code-dark-theme2.png)
 
-### Theme Spider Blue
+## Theme Blue
 
-![Theme Spider blue](./images/spiderman4.png)
+![Theme Spider blue](./images/vs-code-dark-theme4.png)
 
 ## Support language programing
 

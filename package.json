@@ -1,7 +1,7 @@
 {
-	"name": "spiderman",
+	"name": "vs-code-dark-theme-colors",
 	"publisher": "dylanops",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.69.0"
 	},
@@ -24,10 +24,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jundat95/vscode-theme-spider-man.git"
+		"url": "https://github.com/dylanngo95/vs-code-dark-theme-colors"
 	},
 	"bugs": {
-		"url": "https://github.com/jundat95/vscode-theme-spider-man/issues"
+		"url": "https://github.com/dylanngo95/vs-code-dark-theme-colors/issues"
 	},
 	"keywords": [
 		"vs code theme",

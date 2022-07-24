@@ -1,7 +1,7 @@
 name: Spider Man
 author: Dylan Ops
 maintainers:
-  - Jundat95 <it.tinhngo@gmail.com>
+  - Dylan Ngo <it.tinhngo@gmail.com>
 semanticClass: theme.spiderman
 spiderman:
   base:

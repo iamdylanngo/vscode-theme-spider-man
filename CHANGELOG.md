@@ -1,3 +1,11 @@
+## 0.0.2
+
+### Minor
+
+### Patch
+
+    - Update github repository
+
 ## 0.0.1
 
 ### Minor
